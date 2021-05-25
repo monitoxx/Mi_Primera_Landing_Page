@@ -1,0 +1,84 @@
+.contenedor{
+/*background-color: #009c8c;--> HAGO ESTO PORQUE YA NO NECESITO LA GUÍA CON LOS COLORES*/
+	width: 800px;
+/*height: 300px;--> HAGO ESTO PORQUE YA NO NECESITO LA GUÍA CON LOS COLORES*/
+	margin-bottom: 20px;
+}
+	/*AQUI ESTOY DEFINIENDO LA CLASE*/
+#logo{
+	width: 200px;
+	height: 200px;
+	background-color: #009c8c;
+	margin: 0 auto;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	text-align: center;
+}
+.boton{
+	color: white;
+	background-color: #ff6373;
+	cursor: pointer;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px; /*Chrome*/
+	-moz-border-radius: 20px;/*Mozilla*/
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;/*Opera*/
+	padding: 20px;
+}
+	/*Esto es una pseudo-clase*/
+.boton:hover{
+	color: black;
+	background-color: gray;
+}
+	/*Cambia a este color cuando el cursor pasa por ahí */
+#menu{
+	height: 100px;
+	text-align: center;
+}
+	/*Defino más clases*/
+.imagen{
+	display: inline-block;
+	background-color: yellow;
+}
+.texto_descriptivo{
+	display: inline-block;
+	background-color: purple;
+	width: 650px;
+}
+	/*DEFINO MAS CLASES*/
+#descripcion{
+	height: 150px;
+}
+#contacto{
+	height: 200px;
+}
+#boton_pagina{
+	display: inline-block;
+	width: 300px;
+	height: 70px;
+	background-color: gray;
+	color: black;
+	border-radius: 50px;
+	-webkit-border-radius: 50px; /*Chrome*/
+	-moz-border-radius: 50px;/*Mozilla*/
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;/*Opera*/
+	text-align: center;
+	padding-top: 30px;
+	text-decoration: none; /*PARA QUE NO SALGA LA LINEA DEBAJO DE LA PALABRA, COMO UN HIPERVINCULO*/
+	font-family: verdana;
+	font-size: 30px;
+}
+#descarga{
+	display: inline-block;
+	text-align: center;
+}
+#contenedor_principal{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
